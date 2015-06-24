@@ -5,6 +5,7 @@ filerepo_chmod_mode: 660
 affinity_preference: ['amd64']
 
 xmlrpc:
+    auth_method: simple
     addr: 0.0.0.0
     port: 22017
 

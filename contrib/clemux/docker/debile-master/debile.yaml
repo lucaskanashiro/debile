@@ -1,15 +1,14 @@
 ---
 Users:  # Users of Debile
-    - name: Clement Schreiner
-      email: clement@mux.me
-      pgp: DD689A73A7CAFAED446D9C9C650A92899BB9E0AA
-      ssl: 00000000000000000EADBEEF0000000000000000
+    - name: Lucas Kanashiro
+      email: kanashiro.duarte@gmail.com
+      pgp: 8ED6C3F8BAC9DB7FC130A870F823A2729883C97C
 
 Builders:  # Machines that can build
     - name: debile-slave
-      maintainer: clement@mux.me
-      pgp: 7C367D02AF6D20DCF2BFB686E8D62122F818733D
-      ssl: 00000000000000000EADBEE00000000000000000
+      maintainer: kanashiro.duarte@gmail.com
+      pgp: D88A8FD511C60A566C87371E8CF4B7B89B4ED267
+      ip: 172.17.0.128
 
 Suites:
     - name: unstable
@@ -28,7 +27,7 @@ Checks:
 
 Groups:
     - name: default
-      maintainer: clement@mux.me
+      maintainer: kanashiro.duarte@gmail.com
 
       suites:
           - suite: unstable

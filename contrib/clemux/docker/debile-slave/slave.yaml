@@ -1,10 +1,10 @@
 ---
 xmlrpc:
+    auth_method: simple
     host: debile-master
     port: 22017
-    # ca_certs: /etc/ssl/certs/ca-certificates.crt
 
-gpg: 7C367D02AF6D20DCF2BFB686E8D62122F818733D
+gpg: D88A8FD511C60A566C87371E8CF4B7B89B4ED267
 
 dput:
     host: debile-master
